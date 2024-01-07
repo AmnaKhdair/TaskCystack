@@ -1,0 +1,45 @@
+.container{
+    color: white;
+    text-align: center;
+    padding: 170px 0;
+ 
+}
+.int{
+    padding: 20px 100px;
+    box-sizing: border-box;
+    border: 3px solid #ecc332ea;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #c9b158;
+}
+
+h1,h2{
+    padding: 5px 0 ;
+}
+h3{
+    padding: 10px 0 ;
+}
+.btn{
+    margin-left: 3px;
+    border-radius: 10px;
+    width:65px;
+    height: 65px;
+    position: relative;
+    top: 8px;
+   box-sizing: border-box;
+   background-color: white;
+   border: 3px solid #ecc332ea;
+  
+}
+.btn:hover{
+    background-color: #c9b158;
+    
+}
+img{
+
+    width: 30px;
+    height: 30px;
+   
+   
+}

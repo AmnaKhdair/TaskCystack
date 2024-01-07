@@ -1,0 +1,112 @@
+
+@font-face{
+    font-family: myfont;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+    background: linear-gradient(0.25turn, #c9b158, #5a5b61);
+    font-family: myfont;
+}
+.maincontainer{
+   
+    width: 100%;
+    height: 100%;
+    box-sizing:border-box;
+}
+.s1{
+    box-sizing:border-box;
+    width: 100%;
+    font-size: 22px;
+    font-weight:500;
+    padding: 10px 10px;
+    color: white;
+   
+   
+}
+.s2{
+    margin-left: 11%;
+}
+.btn-chk{
+    margin-left: 11%;
+}
+.int-chk{
+    width: 20px;
+    height: 20px;
+    outline: 3px solid #c9b158;
+    accent-color:#c9b158;
+    
+}
+.int-chk:checked{
+    outline: 3px solid #c9b158;
+}
+.btnNot{
+    cursor:pointer;
+    border-radius: 30px;
+    width:55px;
+    height:30px;
+   color: rgba(0, 0, 0, 0.73);
+   box-sizing: border-box;
+   background-color: white;
+   margin:0 5px ;
+ 
+}
+label{
+    color: rgba(0, 0, 0, 0.315);
+}
+.main {
+
+    overflow-y: scroll;
+    scrollbar-color: #c9b158 rgba(0, 0, 0, 0.255);
+   scrollbar-width: thin;
+    max-height: 550px;
+   
+    
+    font-size: 14px;
+    font-weight:500;
+}
+
+table {
+    text-align: center;
+    width: 1500px;
+    height: 800px;
+    max-height: 500px;
+    border-collapse: separate;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.266);
+    color: #fff;
+}
+
+th {
+    text-align: center;
+}
+
+thead th {
+    background-color: rgba(48, 46, 46, 0.495);
+}
+
+tbody tr:hover {
+    background-color: rgba(150, 135, 18, 0.292);
+}
+
+tbody td {
+    position: relative;
+}
+
+tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+

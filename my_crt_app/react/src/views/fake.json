@@ -1,0 +1,6 @@
+
+[
+{"issuer_ca_id":183267,"issuer_name":"C=US, O=Let's Encrypt, CN=R3","common_name":"filter.cystack.ps","name_value":"filter.cystack.ps","id":11399493874,"entry_timestamp":"2023-12-12T16:03:13.771","not_before":"2023-12-12T15:03:13","not_after":"2024-03-11T15:03:12","serial_number":"0324581c1bdb705ecfa941aa2f7ba255162e","result_count":2},
+{"issuer_ca_id":183267,"issuer_name":"C=US, O=Let's Encrypt, CN=R3","common_name":"filter.cystack.ps","name_value":"filter.cystack.ps","id":11392544863,"entry_timestamp":"2023-12-12T16:03:13.642","not_before":"2023-12-12T15:03:13","not_after":"2024-03-11T15:03:12","serial_number":"0324581c1bdb705ecfa941aa2f7ba255162e","result_count":2},
+{"issuer_ca_id":180753,"issuer_name":"C=US, O=Google Trust Services LLC, CN=GTS CA 1P5","common_name":"cystack.ps","name_value":"*.cystack.ps\ncystack.ps","id":11311423832,"entry_timestamp":"2023-12-04T08:39:35.82","not_before":"2023-12-04T07:39:28","not_after":"2024-03-03T07:39:27","serial_number":"008111e96318449f0f1169c2f9dd8f8649","result_count":3}
+]
